@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); 
+/* font-family: "Pacifico", cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amita:wght@400;700&family=Great+Vibes&family=Pacifico&display=swap');
+/*  font-family:"Abril Fatface", serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amita:wght@400;700&family=Great+Vibes&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Pacifico&display=swap');
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.myfont{
+    font-family: "Neuton", serif;
+    font-weight: bold;
+}
+.bg-coffee{
+    background: #180707;
+}
+.bg-black{
+    background:#000000;
+}
+.bg-brown{
+    background:#1f1616;
+}
+.bg-offwhite{
+    background: #FFF9F1;
+}
+.text-brown{
+    color:#0b0303 ;
+}
+.text-black{
+    color:#000000 ;
+}
+.text-coffee{
+    color: #603808;
+}
+.bg-lightbrown{
+    background: #F9C069;
+}
+.bg-dakerbrown{
+    background: #FFEFD8;
+
+}
+.bg-border{
+    border: 1px solid #F9C069;
+}
+.my-btn-width{
+width:120px;
+}
+h1{
+    font-size: 50px;
+}
+.top-30{
+    top:30%
+}
+.top-60{
+    top:60%
+}
+.top-70{
+    top:70%
+}
+.start-4{
+    left: 4%;
+}
+.end-4{
+    right: 4%;
+}
+.myhr {
+    border: none;
+    border-bottom: 2px dashed #020829;
+    height: 20px;
+    width: 100%;
+}
+/* Navbar Section starts */
+.nav-link{
+    color: #ffffffb3;
+    font-weight: bold;
+}
+.navbar-nav .nav-link.active,
+ .navbar-nav .nav-link.show {
+    color:#fff;
+}
+.nav-link:focus, .nav-link:hover{
+    color: #fff;
+    transition: color 0.3s ease;
+}
+.banner{
+    width: 100%;
+    height: auto;
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(19, 11, 11, 0.4)) ,url(../img/bannerorignal.png);
+    background-position: center ;
+    background-size: cover;
+}
+.banner .mystyle{
+    font-family: "Great Vibes", cursive;
+    font-size: 100px;
+    font-weight: 500;
+}
+/* Navbar Section ends */
+/* enjoy section starts */
+.enjoy a{
+    text-decoration: none;
+}
+/* enjoy section ends */
+/* Different section starts */
+.different .myicon{
+    width:100px;
+    height: 100px;
+}
+/* Different section ends */
+/* Amazing section starts */
+.amaze{
+    width: 100%;
+    height: auto;
+    background:linear-gradient(rgba(52, 36, 2, 0.8),rgba(59, 43, 18, 0.8)) ,url(../img/banner13.jpg);
+    background-position: center ;
+    background-size: cover;
+}
+/* Amazing section ends */
+/* Feedback section starts */
+.feedback .carousel-inner{
+    height: 340px;
+}
+.feedback .carousel-control-prev ,.carousel-control-next{
+    width:50px;
+    height:50px;
+    background-color:#fe9400;
+    background-size: 100%, 100%;
+    border-radius: 20%;
+}
+/* Feedback section ends */
+
+/* Media Query section starts */
+@media screen and (max-width:768px){
+   
+    .feedback .carousel-inner{
+        height: 400px;
+    }
+}
+
+@media screen and(max-width:320px) {
+    .banner .mystyle{
+    font-size: 50px;
+    font-weight: 200;
+    }
+}
+/* Media Query section ends */
